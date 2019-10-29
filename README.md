@@ -26,7 +26,7 @@
 # 致谢
 - 原书作者: Lan Sommerville
 - 参与翻译人员: 
- - [@AngelKitty](https://github.com/AngelKitty)
+  - [@AngelKitty](https://github.com/AngelKitty)
 
 # 问题反馈
 
