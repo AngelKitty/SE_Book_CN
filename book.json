@@ -11,6 +11,7 @@
         "back-to-top-button",
         "chapter-fold",
         "code",
+        "copy-code-button",
         "splitter",
         "-lunr",
         "-search",
@@ -19,7 +20,19 @@
         "tbfed-pagefooter",
         "popup",
         "-sharing",
-        "sharing-plus"
+        "sharing-plus",
+        "advanced-emoji",
+        "github",
+        "emphasize",
+        "sectionx",
+        "klipse",
+        "flexible-alerts",
+        "auto-scroll-table",
+        "lightbox",
+        "click-reveal",
+        "include-csv",
+        "local-video",
+        "katex"
     ],
 
     "pluginsConfig": {
@@ -52,6 +65,17 @@
                "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo", 
                "messenger","qq", "qzone","viber","whatsapp"
            ]
+       },
+       "github": {
+            "url": "https://github.com/AngelKitty"
+       },
+       "flexible-alerts": {
+          "style": "callout",
+          "comment": {
+              "label": "Comment",
+              "icon": "fa fa-comments",
+              "className": "info"
+          }
        }
     }
 }
