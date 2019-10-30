@@ -76,7 +76,7 @@
     - [14.1 网络安全](./docs/Chapter14/14-1.md)
     - [14.2 社会技术韧性](./docs/Chapter14/14-2.md)
     - [14.3 韧性系统设计](./docs/Chapter14/14-3.md)
- * [第三部分 高级软件工程](./docs/Part3.md)
+* [第三部分 高级软件工程](./docs/Part3.md)
   - [第 15 章 软件复用](./docs/Chapter15/15.md)
     - [15.1 复用概览](./docs/Chapter15/15-1.md)
     - [15.2 应用框架](./docs/Chapter15/15-2.md)

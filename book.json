@@ -1,0 +1,57 @@
+{
+    "title": "Software Engineer(10th edition) 中文版",
+    "description": "Software Engineer(10th edition)",
+    "author": "Angel_Kitty",
+    "language": "zh-hans",
+    "root": ".",
+
+    "plugins": [
+        "github-buttons@2.1.0",
+        "edit-link",
+        "back-to-top-button",
+        "chapter-fold",
+        "code",
+        "splitter",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "pageview-count",
+        "tbfed-pagefooter",
+        "popup",
+        "-sharing",
+        "sharing-plus"
+    ],
+
+    "pluginsConfig": {
+        "github-buttons": {
+            "repo": "AngelKitty/SE_Book_CN",
+            "types": [
+                "star"
+            ],
+            "size": "small"
+        },
+        "edit-link": {
+            "base": "https://github.com/AngelKitty/SE_Book_CN/edit/master",
+            "label": "编辑此页面"
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © 2019 Angel_Kitty",
+            "modify_label": "该文章修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "sharing": {
+             "douban": true,
+             "facebook": true,
+             "google": true,
+             "pocket": true,
+             "qq": true,
+             "qzone": true,
+             "twitter": true,
+             "weibo": true,
+          "all": [
+               "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo", 
+               "messenger","qq", "qzone","viber","whatsapp"
+           ]
+       }
+    }
+}
