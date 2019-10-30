@@ -1,0 +1,2221 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>4.3 需求抽取 · Software Engineer(10th edition) 中文版</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Angel_Kitty">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="4-4.html" />
+    
+    
+    <link rel="prev" href="4-2.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"repo":"AngelKitty/SE_Book_CN","types":["star"],"size":"small"};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Part1.html">
+            
+                <a href="../Part1.html">
+            
+                    
+                    第一部分 软件工程导论
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../Chapter1/1.html">
+            
+                <a href="../Chapter1/1.html">
+            
+                    
+                    第 1 章 概述
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="../Chapter1/1-1.html">
+            
+                <a href="../Chapter1/1-1.html">
+            
+                    
+                    1.1 专业化软件开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="../Chapter1/1-2.html">
+            
+                <a href="../Chapter1/1-2.html">
+            
+                    
+                    1.2 软件工程职业道德
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.3" data-path="../Chapter1/1-3.html">
+            
+                <a href="../Chapter1/1-3.html">
+            
+                    
+                    1.3 案例研究
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../Chapter2/2.html">
+            
+                <a href="../Chapter2/2.html">
+            
+                    
+                    第 2 章 软件过程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="../Chapter2/2-1.html">
+            
+                <a href="../Chapter2/2-1.html">
+            
+                    
+                    2.1 软件过程模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2" data-path="../Chapter2/2-2.html">
+            
+                <a href="../Chapter2/2-2.html">
+            
+                    
+                    2.2 过程活动
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.3" data-path="../Chapter2/2-3.html">
+            
+                <a href="../Chapter2/2-3.html">
+            
+                    
+                    2.3 应对变化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.4" data-path="../Chapter2/2-4.html">
+            
+                <a href="../Chapter2/2-4.html">
+            
+                    
+                    2.4 过程改进
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../Chapter3/3.html">
+            
+                <a href="../Chapter3/3.html">
+            
+                    
+                    第 3 章 敏捷软件开发
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1" data-path="../Chapter3/3-1.html">
+            
+                <a href="../Chapter3/3-1.html">
+            
+                    
+                    3.1 敏捷方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2" data-path="../Chapter3/3-2.html">
+            
+                <a href="../Chapter3/3-2.html">
+            
+                    
+                    3.2 敏捷开发技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.3" data-path="../Chapter3/3-3.html">
+            
+                <a href="../Chapter3/3-3.html">
+            
+                    
+                    3.3 敏捷项目管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.4" data-path="../Chapter3/3-4.html">
+            
+                <a href="../Chapter3/3-4.html">
+            
+                    
+                    3.4 敏捷方法的伸缩
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="4.html">
+            
+                <a href="4.html">
+            
+                    
+                    第 4 章 需求工程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.4.1" data-path="4-1.html">
+            
+                <a href="4-1.html">
+            
+                    
+                    4.1 功能性和非功能性需求
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.2" data-path="4-2.html">
+            
+                <a href="4-2.html">
+            
+                    
+                    4.2 需求工程过程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.4.3" data-path="4-3.html">
+            
+                <a href="4-3.html">
+            
+                    
+                    4.3 需求抽取
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.4" data-path="4-4.html">
+            
+                <a href="4-4.html">
+            
+                    
+                    4.4 需求规格说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.5" data-path="4-5.html">
+            
+                <a href="4-5.html">
+            
+                    
+                    4.5 需求确认
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.6" data-path="4-6.html">
+            
+                <a href="4-6.html">
+            
+                    
+                    4.6 需求变更
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../Chapter5/5.html">
+            
+                <a href="../Chapter5/5.html">
+            
+                    
+                    第 5 章 系统建模
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.1" data-path="../Chapter5/5-1.html">
+            
+                <a href="../Chapter5/5-1.html">
+            
+                    
+                    5.1 上下文模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.2" data-path="../Chapter5/5-2.html">
+            
+                <a href="../Chapter5/5-2.html">
+            
+                    
+                    5.2 交互模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.3" data-path="../Chapter5/5-3.html">
+            
+                <a href="../Chapter5/5-3.html">
+            
+                    
+                    5.3 结构模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.4" data-path="../Chapter5/5-4.html">
+            
+                <a href="../Chapter5/5-4.html">
+            
+                    
+                    5.4 行为模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5.5" data-path="../Chapter5/5-5.html">
+            
+                <a href="../Chapter5/5-5.html">
+            
+                    
+                    5.5 模型驱动的体系结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../Chapter6/6.html">
+            
+                <a href="../Chapter6/6.html">
+            
+                    
+                    第 6 章 体系结构设计
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.6.1" data-path="../Chapter6/6-1.html">
+            
+                <a href="../Chapter6/6-1.html">
+            
+                    
+                    6.1 体系结构设计决策
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.2" data-path="../Chapter6/6-2.html">
+            
+                <a href="../Chapter6/6-2.html">
+            
+                    
+                    6.2 体系结构视图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.3" data-path="../Chapter6/6-3.html">
+            
+                <a href="../Chapter6/6-3.html">
+            
+                    
+                    6.3 体系结构模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.4" data-path="../Chapter6/6-4.html">
+            
+                <a href="../Chapter6/6-4.html">
+            
+                    
+                    6.4 应用体系结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../Chapter7/7.html">
+            
+                <a href="../Chapter7/7.html">
+            
+                    
+                    第 7 章 设计和实现
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.7.1" data-path="../Chapter7/7-1.html">
+            
+                <a href="../Chapter7/7-1.html">
+            
+                    
+                    7.1 使用 UML 的面向对象设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.2" data-path="../Chapter7/7-2.html">
+            
+                <a href="../Chapter7/7-2.html">
+            
+                    
+                    7.2 设计模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.3" data-path="../Chapter7/7-3.html">
+            
+                <a href="../Chapter7/7-3.html">
+            
+                    
+                    7.3 实现问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.4" data-path="../Chapter7/7-4.html">
+            
+                <a href="../Chapter7/7-4.html">
+            
+                    
+                    7.4 开源开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../Chapter8/8.html">
+            
+                <a href="../Chapter8/8.html">
+            
+                    
+                    第 8 章 软件测试
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.8.1" data-path="../Chapter8/8-1.html">
+            
+                <a href="../Chapter8/8-1.html">
+            
+                    
+                    8.1 开发测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8.2" data-path="../Chapter8/8-2.html">
+            
+                <a href="../Chapter8/8-2.html">
+            
+                    
+                    8.2 测试驱动的开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8.3" data-path="../Chapter8/8-3.html">
+            
+                <a href="../Chapter8/8-3.html">
+            
+                    
+                    8.3 发布测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8.4" data-path="../Chapter8/8-4.html">
+            
+                <a href="../Chapter8/8-4.html">
+            
+                    
+                    8.4 用户测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../Chapter9/9.html">
+            
+                <a href="../Chapter9/9.html">
+            
+                    
+                    第 9 章 软件演化
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.9.1" data-path="../Chapter9/9-1.html">
+            
+                <a href="../Chapter9/9-1.html">
+            
+                    
+                    9.1 演化过程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9.2" data-path="../Chapter9/9-2.html">
+            
+                <a href="../Chapter9/9-2.html">
+            
+                    
+                    9.2 遗留系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9.3" data-path="../Chapter9/9-3.html">
+            
+                <a href="../Chapter9/9-3.html">
+            
+                    
+                    9.3 软件维护
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../Part2.html">
+            
+                <a href="../Part2.html">
+            
+                    
+                    第二部分 可依赖性和信息安全
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Chapter10/10.html">
+            
+                <a href="../Chapter10/10.html">
+            
+                    
+                    第 10 章 可依赖系统
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../Chapter10/10-1.html">
+            
+                <a href="../Chapter10/10-1.html">
+            
+                    
+                    10.1 可依赖性属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2" data-path="../Chapter10/10-2.html">
+            
+                <a href="../Chapter10/10-2.html">
+            
+                    
+                    10.2 社会技术系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.3" data-path="../Chapter10/10-3.html">
+            
+                <a href="../Chapter10/10-3.html">
+            
+                    
+                    10.3 冗余性和多样性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.4" data-path="../Chapter10/10-4.html">
+            
+                <a href="../Chapter10/10-4.html">
+            
+                    
+                    10.4 可依赖的过程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.5" data-path="../Chapter10/10-5.html">
+            
+                <a href="../Chapter10/10-5.html">
+            
+                    
+                    10.5 形式化方法与可依赖性
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../Chapter11/11.html">
+            
+                <a href="../Chapter11/11.html">
+            
+                    
+                    第 11 章 可靠性工程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="../Chapter11/11-1.html">
+            
+                <a href="../Chapter11/11-1.html">
+            
+                    
+                    11.1 可用性和可靠性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.2" data-path="../Chapter11/11-2.html">
+            
+                <a href="../Chapter11/11-2.html">
+            
+                    
+                    11.2 可靠性需求
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.3" data-path="../Chapter11/11-3.html">
+            
+                <a href="../Chapter11/11-3.html">
+            
+                    
+                    11.3 容错体系结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.4" data-path="../Chapter11/11-4.html">
+            
+                <a href="../Chapter11/11-4.html">
+            
+                    
+                    11.4 编程的可靠性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.5" data-path="../Chapter11/11-5.html">
+            
+                <a href="../Chapter11/11-5.html">
+            
+                    
+                    11.5 可靠性度量
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../Chapter12/12.html">
+            
+                <a href="../Chapter12/12.html">
+            
+                    
+                    第 12 章 安全性工程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1" data-path="../Chapter12/12-1.html">
+            
+                <a href="../Chapter12/12-1.html">
+            
+                    
+                    12.1 安全关键系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2" data-path="../Chapter12/12-2.html">
+            
+                <a href="../Chapter12/12-2.html">
+            
+                    
+                    12.2 安全需求
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3" data-path="../Chapter12/12-3.html">
+            
+                <a href="../Chapter12/12-3.html">
+            
+                    
+                    12.3 安全工程过程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.4" data-path="../Chapter12/12-4.html">
+            
+                <a href="../Chapter12/12-4.html">
+            
+                    
+                    12.4 安全示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../Chapter13/13.html">
+            
+                <a href="../Chapter13/13.html">
+            
+                    
+                    第 13 章 可靠性工程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.4.1" data-path="../Chapter13/13-1.html">
+            
+                <a href="../Chapter13/13-1.html">
+            
+                    
+                    13.1 信息安全和可依赖性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.2" data-path="../Chapter13/13-2.html">
+            
+                <a href="../Chapter13/13-2.html">
+            
+                    
+                    13.2 信息安全和组织
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.3" data-path="../Chapter13/13-3.html">
+            
+                <a href="../Chapter13/13-3.html">
+            
+                    
+                    13.3 信息安全性需求
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.4" data-path="../Chapter13/13-4.html">
+            
+                <a href="../Chapter13/13-4.html">
+            
+                    
+                    13.4 信息安全系统设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.5" data-path="../Chapter13/13-5.html">
+            
+                <a href="../Chapter13/13-5.html">
+            
+                    
+                    13.5 信息安全测试和保证
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../Chapter14/14.html">
+            
+                <a href="../Chapter14/14.html">
+            
+                    
+                    第 14 章 韧性工程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.5.1" data-path="../Chapter14/14-1.html">
+            
+                <a href="../Chapter14/14-1.html">
+            
+                    
+                    14.1 网络安全
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.2" data-path="../Chapter14/14-2.html">
+            
+                <a href="../Chapter14/14-2.html">
+            
+                    
+                    14.2 社会技术韧性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5.3" data-path="../Chapter14/14-3.html">
+            
+                <a href="../Chapter14/14-3.html">
+            
+                    
+                    14.3 韧性系统设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../Part3.html">
+            
+                <a href="../Part3.html">
+            
+                    
+                    第三部分 高级软件工程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../Chapter15/15.html">
+            
+                <a href="../Chapter15/15.html">
+            
+                    
+                    第 15 章 软件复用
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="../Chapter15/15-1.html">
+            
+                <a href="../Chapter15/15-1.html">
+            
+                    
+                    15.1 复用概览
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="../Chapter15/15-2.html">
+            
+                <a href="../Chapter15/15-2.html">
+            
+                    
+                    15.2 应用框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3" data-path="../Chapter15/15-3.html">
+            
+                <a href="../Chapter15/15-3.html">
+            
+                    
+                    15.3 软件产品线
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.4" data-path="../Chapter15/15-4.html">
+            
+                <a href="../Chapter15/15-4.html">
+            
+                    
+                    15.4 应用系统复用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../Chapter16/16.html">
+            
+                <a href="../Chapter16/16.html">
+            
+                    
+                    第 16 章 基于构建的软件工程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="../Chapter14/16-1.md">
+            
+                <span>
+            
+                    
+                    16.1 构件和构件模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="../Chapter16/16-2.html">
+            
+                <a href="../Chapter16/16-2.html">
+            
+                    
+                    16.2 基于构件的软件工程过程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" data-path="../Chapter16/16-3.html">
+            
+                <a href="../Chapter16/16-3.html">
+            
+                    
+                    16.3 构件组装
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../Chapter17/17.html">
+            
+                <a href="../Chapter17/17.html">
+            
+                    
+                    第 17 章 分布式软件工程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="../Chapter17/17-1.html">
+            
+                <a href="../Chapter17/17-1.html">
+            
+                    
+                    17.1 分布式系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.2" data-path="../Chapter17/17-2.html">
+            
+                <a href="../Chapter17/17-2.html">
+            
+                    
+                    17.2 客户机－服务器计算
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.3" data-path="../Chapter17/17-3.html">
+            
+                <a href="../Chapter17/17-3.html">
+            
+                    
+                    17.3 分布式系统的体系结构模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.4" data-path="../Chapter17/17-4.html">
+            
+                <a href="../Chapter17/17-4.html">
+            
+                    
+                    17.4 软件即服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../Chapter18/18.html">
+            
+                <a href="../Chapter18/18.html">
+            
+                    
+                    第 18 章 面向服务的软件工程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.4.1" data-path="../Chapter18/18-1.html">
+            
+                <a href="../Chapter18/18-1.html">
+            
+                    
+                    18.1 面向服务的体系结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.2" data-path="../Chapter18/18-2.html">
+            
+                <a href="../Chapter18/18-2.html">
+            
+                    
+                    18.2 RESTful 服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.3" data-path="../Chapter18/18-3.html">
+            
+                <a href="../Chapter18/18-3.html">
+            
+                    
+                    18.3 服务工程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.4" data-path="../Chapter18/18-4.html">
+            
+                <a href="../Chapter18/18-4.html">
+            
+                    
+                    18.4 服务组合
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../Chapter19/19.html">
+            
+                <a href="../Chapter19/19.html">
+            
+                    
+                    第 19 章 系统工程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.5.1" data-path="../Chapter19/19-1.html">
+            
+                <a href="../Chapter19/19-1.html">
+            
+                    
+                    19.1 社会技术系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.2" data-path="../Chapter19/19-2.html">
+            
+                <a href="../Chapter19/19-2.html">
+            
+                    
+                    19.2 概念设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.3" data-path="../Chapter19/19-3.html">
+            
+                <a href="../Chapter19/19-3.html">
+            
+                    
+                    19.3 系统采购
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.4" data-path="../Chapter19/19-4.html">
+            
+                <a href="../Chapter19/19-4.html">
+            
+                    
+                    19.4 系统开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5.5" data-path="../Chapter19/19-5.html">
+            
+                <a href="../Chapter19/19-5.html">
+            
+                    
+                    19.5 系统运行和演化
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../Chapter20/20.html">
+            
+                <a href="../Chapter20/20.html">
+            
+                    
+                    第 20 章 系统工程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.6.1" data-path="../Chapter20/20-1.html">
+            
+                <a href="../Chapter20/20-1.html">
+            
+                    
+                    20.1 社会技术系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6.2" data-path="../Chapter20/20-2.html">
+            
+                <a href="../Chapter20/20-2.html">
+            
+                    
+                    20.2 概念设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6.3" data-path="../Chapter20/20-3.html">
+            
+                <a href="../Chapter20/20-3.html">
+            
+                    
+                    20.3 系统采购
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6.4" data-path="../Chapter20/20-4.html">
+            
+                <a href="../Chapter20/20-4.html">
+            
+                    
+                    20.4 系统开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6.5" data-path="../Chapter20/20-5.html">
+            
+                <a href="../Chapter20/20-5.html">
+            
+                    
+                    20.5 系统运行和演化
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../Chapter21/21.html">
+            
+                <a href="../Chapter21/21.html">
+            
+                    
+                    第 21 章 面向服务的软件工程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.7.1" data-path="../Chapter21/21-1.html">
+            
+                <a href="../Chapter21/21-1.html">
+            
+                    
+                    21.1 面向服务的体系结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7.2" data-path="../Chapter21/21-2.html">
+            
+                <a href="../Chapter21/21-2.html">
+            
+                    
+                    21.2 RESTful 服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7.3" data-path="../Chapter21/21-3.html">
+            
+                <a href="../Chapter21/21-3.html">
+            
+                    
+                    21.3 服务工程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7.4" data-path="../Chapter21/21-4.html">
+            
+                <a href="../Chapter21/21-4.html">
+            
+                    
+                    21.4 服务组合
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../Part4.html">
+            
+                <a href="../Part4.html">
+            
+                    
+                    第四部分 软件管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../Chapter22/22.html">
+            
+                <a href="../Chapter22/22.html">
+            
+                    
+                    第 22 章 项目管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1.1" data-path="../Chapter22/22-1.html">
+            
+                <a href="../Chapter22/22-1.html">
+            
+                    
+                    22.1 风险管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.2" data-path="../Chapter22/22-2.html">
+            
+                <a href="../Chapter22/22-2.html">
+            
+                    
+                    22.2 人员管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.3" data-path="../Chapter22/22-3.html">
+            
+                <a href="../Chapter22/22-3.html">
+            
+                    
+                    22.3 团队协作
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../Chapter23/23.html">
+            
+                <a href="../Chapter23/23.html">
+            
+                    
+                    第 23 章 项目计划
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.2.1" data-path="../Chapter23/23-1.html">
+            
+                <a href="../Chapter23/23-1.html">
+            
+                    
+                    23.1 软件报价
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.2" data-path="../Chapter23/23-2.html">
+            
+                <a href="../Chapter23/23-2.html">
+            
+                    
+                    23.2 计划驱动的开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.3" data-path="../Chapter23/23-3.html">
+            
+                <a href="../Chapter23/23-3.html">
+            
+                    
+                    23.3 项目进度安排
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.4" data-path="../Chapter23/23-4.html">
+            
+                <a href="../Chapter23/23-4.html">
+            
+                    
+                    23.4 敏捷计划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.5" data-path="../Chapter23/23-5.html">
+            
+                <a href="../Chapter23/23-5.html">
+            
+                    
+                    23.5 估算技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.6" data-path="../Chapter23/23-6.html">
+            
+                <a href="../Chapter23/23-6.html">
+            
+                    
+                    23.6 COCOMO 成本建模
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../Chapter24/24.html">
+            
+                <a href="../Chapter24/24.html">
+            
+                    
+                    第 24 章 质量管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.3.1" data-path="../Chapter24/24-1.html">
+            
+                <a href="../Chapter24/24-1.html">
+            
+                    
+                    24.1 软件质量
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.2" data-path="../Chapter24/24-2.html">
+            
+                <a href="../Chapter24/24-2.html">
+            
+                    
+                    24.2 软件标准
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.3" data-path="../Chapter24/24-3.html">
+            
+                <a href="../Chapter24/24-3.html">
+            
+                    
+                    24.3 复查与审查
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.4" data-path="../Chapter24/24-4.html">
+            
+                <a href="../Chapter24/24-4.html">
+            
+                    
+                    24.4 质量管理与敏捷开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.5" data-path="../Chapter24/24-5.html">
+            
+                <a href="../Chapter24/24-5.html">
+            
+                    
+                    24.5 软件度量
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../Chapter25/25.html">
+            
+                <a href="../Chapter25/25.html">
+            
+                    
+                    第 25 章 配置管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.4.1" data-path="../Chapter25/25-1.html">
+            
+                <a href="../Chapter25/25-1.html">
+            
+                    
+                    25.1 版本管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.2" data-path="../Chapter25/25-2.html">
+            
+                <a href="../Chapter25/25-2.html">
+            
+                    
+                    25.2 系统构建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.3" data-path="../Chapter25/25-3.html">
+            
+                <a href="../Chapter25/25-3.html">
+            
+                    
+                    25.3 变更管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4.4" data-path="../Chapter25/25-4.html">
+            
+                <a href="../Chapter25/25-4.html">
+            
+                    
+                    25.4 发布版本管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >4.3 需求抽取</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <footer class="page-footer"><span class="copyright">Copyright &#xA9; 2019 Angel_Kitty all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x7AE0;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2019-10-30 09:35:35
+</span></footer>
+<script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="4-2.html" class="navigation navigation-prev " aria-label="Previous page: 4.2 需求工程过程">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="4-4.html" class="navigation navigation-next " aria-label="Next page: 4.4 需求规格说明">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"4.3 需求抽取","level":"1.2.4.3","depth":3,"next":{"title":"4.4 需求规格说明","level":"1.2.4.4","depth":3,"path":"docs/Chapter4/4-4.md","ref":"./docs/Chapter4/4-4.md","articles":[]},"previous":{"title":"4.2 需求工程过程","level":"1.2.4.2","depth":3,"path":"docs/Chapter4/4-2.md","ref":"./docs/Chapter4/4-2.md","articles":[]},"dir":"neutral"},"config":{"plugins":["github-buttons@2.1.0","edit-link","back-to-top-button","chapter-fold","code","splitter","-lunr","-search","search-pro","pageview-count","tbfed-pagefooter","popup","-sharing","sharing-plus","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright © 2019 Angel_Kitty","modify_label":"该文章修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"livereload":{},"splitter":{},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"popup":{},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"pageview-count":{},"github-buttons":{"repo":"AngelKitty/SE_Book_CN","types":["star"],"size":"small"},"sharing":{"qq":true,"all":["douban","facebook","google","instapaper","linkedin","twitter","weibo","messenger","qq","qzone","viber","whatsapp"],"douban":true,"facebook":true,"weibo":true,"twitter":true,"pocket":true,"google":true,"qzone":true},"edit-link":{"label":"编辑此页面","base":"https://github.com/AngelKitty/SE_Book_CN/edit/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Angel_Kitty","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Software Engineer(10th edition) 中文版","language":"zh-hans","gitbook":"*","description":"Software Engineer(10th edition)"},"file":{"path":"docs/Chapter4/4-3.md","mtime":"2019-10-30T01:35:35.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-10-30T07:41:41.888Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
